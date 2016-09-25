@@ -5,6 +5,6 @@
 * [安装 NPM 依赖](part1/README.md)
 * [编译 TypeScript 和 Typing](part2/README.md)
 * [NPM Scripts](part3/README.md)
-* Webpack
+* [Webpack](part4/README.md)
 * Webpack 开发服务器
 
