@@ -62,6 +62,23 @@ export class MainModule {}
 platformBrowserDynamic().bootstrapModule(MainModule);
 ```
 
+### 修改 `package.json` 中的编译脚本
+
+```
+{
+    "name": "angular2-starter",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "webpack --grogress",
+        "postinstall": "typings install"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
+```
+
+运行 `npm run build`，打开 `index.html` 大功告成！
+
 
 
 
